@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import { sumar, restar, multiplicar, dividir } from './calculator.js';
 
 test('sumar 2 + 3 da 5', () => {
-  assert.equal(sumar(2, 3), 999);
+  assert.equal(sumar(2, 3), 5);
 });
 
 test('restar 10 - 4 da 6', () => {
