@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node --test calculator.test.js   # ← Ejecuta tus pruebas directamente
+      - run: node --test calculator.test.js 
 
   build:
     runs-on: ubuntu-latest
